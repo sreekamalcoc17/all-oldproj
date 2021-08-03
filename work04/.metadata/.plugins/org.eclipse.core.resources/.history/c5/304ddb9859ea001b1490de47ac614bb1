@@ -1,0 +1,13 @@
+package com.restapi.employee;
+
+import java.util.List;
+
+public interface EmployeeDAO {
+	public Employee getEmployee(int id);
+	public String addEmployee(Employee emp);
+	public String deleteEmployee(int id);
+	public List<Employee> getAllEmployees();
+	
+	
+     
+}

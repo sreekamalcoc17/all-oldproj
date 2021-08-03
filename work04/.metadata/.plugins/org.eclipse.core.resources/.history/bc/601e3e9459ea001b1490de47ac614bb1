@@ -1,0 +1,112 @@
+package com.restapi.employee;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class EmployeeDAOImpl implements EmployeeDAO {
+	
+	Connection con = null;
+	@Override
+	public Employee getEmployee(int id) {
+		// TODO Auto-generated method stub
+		Employee emp1= new Employee();
+		con= ConnectionUtils.getConnection();
+		String query01="select * from employee01 where id=?";
+		PreparedStatement pstmt;
+		try {
+			pstmt = con.prepareStatement(query01);
+			pstmt.setInt(1, id);
+			ResultSet rs=pstmt.executeQuery();
+			while(rs.next()) {
+				emp1.setId(rs.getInt("id"));
+				emp1.setName(rs.getString("Name"));
+				emp1.setSalary(rs.getInt("salary"));
+			}
+			pstmt.close();
+			con.close();
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		return emp1;
+	}
+
+	@Override
+	public String addEmployee(Employee emp) {
+		con= ConnectionUtils.getConnection();
+		String query01="insert into employee01(id,Name,salary) values(?,?,?)";
+		PreparedStatement pstmt;
+		try {
+			pstmt = con.prepareStatement(query01);
+			pstmt.setInt(1, emp.getId());
+			pstmt.setString(2, emp.getName());
+			pstmt.setInt(3, emp.getSalary());
+			pstmt.executeQuery();
+			pstmt.close();
+			con.close();
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return "Employee updated Successfully";
+		
+	}
+
+	@Override
+	public String deleteEmployee(int id) {
+		con= ConnectionUtils.getConnection();
+		String query01="delete form employees01 where id=?";
+		PreparedStatement pstmt;
+		try {
+			pstmt = con.prepareStatement(query01);
+			pstmt.setInt(1, id);
+			pstmt.close();
+			con.close();
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return "Employee data deleted succcessfully!! ";
+		
+	}
+
+	@Override
+	public List<Employee> getAllEmployees() {
+		Employee emp1= null;
+		con= ConnectionUtils.getConnection();
+		List<Employee> emplist = new ArrayList<Employee>();
+		String query01="select * from employee01";
+		PreparedStatement pstmt;
+		try {
+			pstmt = con.prepareStatement(query01);
+			ResultSet rs=pstmt.executeQuery();
+			while(rs.next()) {
+				emp1=new Employee();
+				emp1.setId(rs.getInt("id"));
+				emp1.setName(rs.getString("Name"));
+				emp1.setSalary(rs.getInt("salary"));
+				emplist.add(emp1);
+			}
+			pstmt.close();
+			con.close();
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return emplist;
+	}
+	
+
+}

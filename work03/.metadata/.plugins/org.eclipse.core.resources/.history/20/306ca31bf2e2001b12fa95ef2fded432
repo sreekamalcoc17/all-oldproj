@@ -1,0 +1,5 @@
+package com.hibernate.OTM;
+
+public class Department {
+
+}

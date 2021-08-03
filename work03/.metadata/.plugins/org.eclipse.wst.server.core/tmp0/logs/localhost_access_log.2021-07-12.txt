@@ -1,0 +1,17 @@
+127.0.0.1 - - [12/Jul/2021:23:38:32 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:38:33 +0530] "GET /Project01/WEB-INF/classes/com/revature/project01/Controller.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:38:54 +0530] "GET /Project01/webapi/controller/hello HTTP/1.1" 200 5
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:39:20 +0530] "GET /Project01/WEB-INF/classes/com/revature/project01/Controller.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:40:18 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:40:22 +0530] "POST /Project01/webapi/controller/show HTTP/1.1" 200 25
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:45:50 +0530] "POST /Project01/webapi/controller/show HTTP/1.1" 200 25
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:46:33 +0530] "POST /Project01/webapi/controller/show HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:46:34 +0530] "POST /Project01/webapi/controller/show HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:47:20 +0530] "POST /Project01/webapi/controller/show HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:47:21 +0530] "POST /Project01/webapi/controller/show HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:47:21 +0530] "POST /Project01/webapi/controller/show HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:47:21 +0530] "POST /Project01/webapi/controller/show HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:49:21 +0530] "POST /Project01/webapi/controller/show HTTP/1.1" 200 25
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:50:14 +0530] "POST /Project01/webapi/controller/show HTTP/1.1" 200 25
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:52:11 +0530] "POST /Project01/webapi/controller/show HTTP/1.1" 200 24
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:52:11 +0530] "POST /Project01/webapi/controller/show HTTP/1.1" 200 24

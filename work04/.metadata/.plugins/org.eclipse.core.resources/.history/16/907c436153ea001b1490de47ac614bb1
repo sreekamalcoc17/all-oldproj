@@ -1,0 +1,6 @@
+  
+db.url=database-1.cw2z7krhms3m.us-east-2.rds.amazonaws.com
+db.port=5432
+db.database=EmployeeServ
+db.user=postgres
+db.password=pranee123

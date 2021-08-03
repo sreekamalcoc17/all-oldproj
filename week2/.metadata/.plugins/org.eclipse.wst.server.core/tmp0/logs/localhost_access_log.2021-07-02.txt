@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [02/Jul/2021:00:07:15 +0530] "POST /webappassign/webapi/controller/form HTTP/1.1" 500 6052
+127.0.0.1 - - [02/Jul/2021:10:21:49 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [02/Jul/2021:10:21:52 +0530] "GET /webappassign/form.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Jul/2021:10:22:01 +0530] "POST /webappassign/webapi/controller/form HTTP/1.1" 200 4
+127.0.0.1 - - [02/Jul/2021:10:27:07 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [02/Jul/2021:10:27:37 +0530] "POST /webappassign/webapi/controller/form HTTP/1.1" 200 4
+127.0.0.1 - - [02/Jul/2021:10:31:32 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [02/Jul/2021:10:31:46 +0530] "POST /webappassign/webapi/controller/form HTTP/1.1" 200 4

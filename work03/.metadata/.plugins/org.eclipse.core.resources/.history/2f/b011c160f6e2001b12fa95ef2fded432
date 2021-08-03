@@ -1,0 +1,15 @@
+package com.hibernate.mapping.OTMbinary;
+
+import org.hibernate.query.Query;
+import org.hibernate.Session;
+
+import com.revature.hibernateCriteria.HibernateUtil;
+
+public class Main02 {
+	public static void main(String[] args) {
+		Session session = HibernateUtil.getSessionFactory().openSession();
+		Query<R> query = session.createQuery(null)
+
+	}
+
+}

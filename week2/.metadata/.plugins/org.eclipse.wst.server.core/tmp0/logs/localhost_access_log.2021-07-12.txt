@@ -1,0 +1,11 @@
+127.0.0.1 - - [12/Jul/2021:22:57:33 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:22:57:35 +0530] "GET /project01/WEB-INF/classes/com/revature/employee/EmployeeRest.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:22:58:08 +0530] "GET /project01/webapi/employeecontroller/hello HTTP/1.1" 500 1567777
+127.0.0.1 - - [12/Jul/2021:23:13:25 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:13:26 +0530] "GET /project01/WEB-INF/classes/com/revature/employee/EmployeeRest.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:13:47 +0530] "GET /project01/webapi/employeecontroller/helloi HTTP/1.1" 500 1567745
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:13:54 +0530] "GET /project01/webapi/employeecontroller/hello HTTP/1.1" 500 1567737
+127.0.0.1 - - [12/Jul/2021:23:16:22 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:16:23 +0530] "GET /project01/WEB-INF/classes/com/revature/employee/EmployeeRest.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:16:28 +0530] "GET /project01/webapi/employeecontroller/hello HTTP/1.1" 500 1567707
+0:0:0:0:0:0:0:1 - - [12/Jul/2021:23:16:31 +0530] "GET /project01/webapi/employeecontroller/hello HTTP/1.1" 500 1567741

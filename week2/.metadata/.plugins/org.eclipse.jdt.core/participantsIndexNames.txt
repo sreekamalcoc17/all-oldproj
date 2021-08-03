@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+D:\java training\week2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1006526890.index
+\01RestDemo\src\main\java
+D:\java training\week2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2357356187.index
+\webappassign\src\main\java

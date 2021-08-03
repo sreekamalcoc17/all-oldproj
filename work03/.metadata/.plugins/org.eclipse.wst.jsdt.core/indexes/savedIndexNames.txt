@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+D:\java training\work03\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2905972622.index

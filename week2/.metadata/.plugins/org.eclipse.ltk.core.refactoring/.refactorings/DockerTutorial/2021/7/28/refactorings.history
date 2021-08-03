@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.jenkins.java.Test.java&apos; to &apos;TestMain.java&apos;&#x0D;&#x0A;- Original project: &apos;DockerTutorial&apos;&#x0D;&#x0A;- Original element: &apos;com.jenkins.java.Test.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.jenkins.java.TestMain.java&apos;" description="Rename compilation unit &apos;Test.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.jenkins.java{Test.java" name="TestMain.java" references="false" stamp="1625677187680" version="1.0"/>
+</session>
